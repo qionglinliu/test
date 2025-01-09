@@ -1,0 +1,12 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/lql/py_project/ICME/dataset/tardal_fuse/images/train
+val: /home/lql/py_project/ICME/dataset/tardal_fuse/images/val
+test: /home/lql/py_project/ICME/dataset/tardal_fuse/images/test
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'person']
